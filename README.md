@@ -21,7 +21,14 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 ![](https://github.com/ftjyangf/MechaCar_Statistical_Analysis/blob/main/images/test3.PNG)
 ### According to the test output, the p-values are 0.9048,0.3451, and 0.9048 for lot1, lot2,and lot3. the p-value are so big that we can't reject the null hypothesis that the mean of population is 1500, our evident is not significant.
 
-##
-
-
+## Study Design: MechaCar vs Competition
+cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+### In this case we could choose city, highway fuel efficiency, horse power/price, maintenance cost, and safety rating. 
+### horse power/price can describle how many units of horse power customer can get per dollar, so consumer can use it to compare it with other options. 
+### We use paried t-test to see if there is difference between 2 brands of cars in horse power per dollar. 
+1.    Null hypothesis: there is no difference between two brands 
+2.    Alternative hypothesis: there is difference between two brands
+3.    We are gonna collect data sample on both brands of cars, the sample size is between 30 to 100, we need the price and horse power of cars.
+4.    We set the significant level at 5%, if the p-value is lower than 5%, we accept the null hypothesis, which is there is no difference between two brands. if higher than 5% we accept alternative hypothesis, there is difference between two brands by horse power per dollar.
+### we can also repeat this test it on such as fuel efficiency, safety ratings
 
